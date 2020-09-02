@@ -41,7 +41,6 @@ const accordion = document.querySelector('.accordion')
 
 // TASK 4- Create a function 'makePanel' that creates a panel exactly as you see it in the HTML.
 function makePanel({ title, content } /* what data does the panel need? */) {
-  debugger
   // I can see the arrows already (CLOSURE)
 
   // TASK 5- Instantiate all the elements needed for a panel
@@ -74,7 +73,6 @@ function makePanel({ title, content } /* what data does the panel need? */) {
   panelButtons.appendChild(openButton)
   panelButtons.appendChild(closeButton)
 
-  console.log(panel)
   // TASK 7- Add proper class names to our elements (See index.html for reference)
 
 
