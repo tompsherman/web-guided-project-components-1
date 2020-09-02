@@ -6,16 +6,15 @@ const imageData = [
   { imageURL: 'https://images.dog.ceo/breeds/mastiff-bull/n02108422_3398.jpg' },
   { imageURL: 'https://images.dog.ceo/breeds/mastiff-bull/n02108422_2947.jpg' },
 ]
-function makeImage({ imgURL }) {
+function makeImage({ imageURL }) {
   const imgElement = document.createElement('img')
   imgElement.style.width = '10em'
-  imgElement.src = imgURL
+  imgElement.src = imageURL
   return imgElement
 }
 imageData.forEach(imgObj => {
-  const imageURL = imgObj.imageURL
   // 1- make an image
-  const img = makeImage({ imgURL: imageURL })
+  const img = makeImage(imgObj)
   // 2- attach to DOM
   document.body.prepend(img)
 })
