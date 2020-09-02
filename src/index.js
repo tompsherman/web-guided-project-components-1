@@ -96,7 +96,7 @@ function makePanel({ title, content } /* what data does the panel need? */) {
   //  - the contents need to show (the 'toggle-on' class name controls this)
   debugger
   panelButtons.addEventListener('click', event => {
-    debugger
+
   })
 
   // don't forget to return the panel!
