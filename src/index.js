@@ -91,6 +91,7 @@ function makePanel({ title, content } /* what data does the panel need? */) {
   // don't forget to return the panel!
   return null
 }
+makePanel()
 
 
 // TASK 10- Loop through the panelData in the data folder
