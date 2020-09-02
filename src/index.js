@@ -107,7 +107,8 @@ function makePanel({ title, content } /* what data does the panel need? */) {
 // const test = makePanel({ title: 'foo', content: 'bar' })
 // accordion.appendChild(test)
 panelData.forEach(panelObj => {
-  
+  const pan = makePanel(panelObj)
+  accordion.appendChild(pan)
 })
 
 
