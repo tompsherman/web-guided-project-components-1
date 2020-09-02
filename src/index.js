@@ -104,8 +104,10 @@ function makePanel({ title, content } /* what data does the panel need? */) {
   // don't forget to return the panel!
   return panel
 }
-const test = makePanel({ title: 'foo', content: 'bar' })
-accordion.appendChild(test)
+// const test = makePanel({ title: 'foo', content: 'bar' })
+// accordion.appendChild(test)
+panelData.forEach()
+
 
 // TASK 10- Loop through the panelData in the data folder
 //  creating panels for each content and title,
