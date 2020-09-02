@@ -89,7 +89,7 @@ function makePanel({ title, content } /* what data does the panel need? */) {
   openButton.textContent = arrows.open
   closeButton.textContent = arrows.close
 
-  
+
   // TASK 9- When the 'open' or 'close' buttons are clicked, the content is toggled on/off:
   //  - the open button needs to go away (the 'hide-btn' class name controls this)
   //  - the close button needs to show (the 'hide-btn' class name controls this)
@@ -100,7 +100,7 @@ function makePanel({ title, content } /* what data does the panel need? */) {
   return panel
 }
 const test = makePanel({ title: 'foo', content: 'bar' })
-console.log(test)
+accordion.appendChild(test)
 
 // TASK 10- Loop through the panelData in the data folder
 //  creating panels for each content and title,
