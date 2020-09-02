@@ -13,9 +13,11 @@ function makeImage({ imgURL }) {
   return imgElement
 }
 imageData.forEach(imgObj => {
+  debugger
   // 1- make an image
   const img = makeImage(imgObj)
   // 2- attach to DOM
+  document.body.prepend(img)
 })
 
 // TASK 1- Import the data we need to "hydrate" our component
