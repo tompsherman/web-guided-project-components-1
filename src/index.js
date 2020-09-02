@@ -76,7 +76,7 @@ function makePanel({ title, content } /* what data does the panel need? */) {
   // TASK 7- Add proper class names to our elements (See index.html for reference)
   panel.classList.add('panel')
   panelBar.className = 'panel-bar'
-  panelContent.classList.add('panel-content')
+  panelContent.classList.add('panel-content', 'toggle-on')
   panelButtons.classList.add('panel-buttons')
   openButton.classList.add('panel-btn-open')
   closeButton.classList.add('panel-btn-close hide-btn')
