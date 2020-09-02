@@ -7,7 +7,7 @@ const imageData = [
   { imageURL: 'https://images.dog.ceo/breeds/mastiff-bull/n02108422_2947.jpg' },
 ]
 // component is function that takes raw data
-function makeImage({ imageURL }) {
+function makeImage({ imageURL }) { // destructuring
   const imgElement = document.createElement('img') // make a detatched img tag
   imgElement.style.width = '10em'
   imgElement.src = imageURL
@@ -17,7 +17,7 @@ imageData.forEach(imgObj => {
   // 1- make an image
   const img = makeImage(imgObj)
   // 2- attach to DOM
-  document.body.prepend(img)
+  document.body.prepend(img) // attach to DOM
 })
 
 // TASK 1- Import the data we need to "hydrate" our component
