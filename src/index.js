@@ -29,8 +29,8 @@ import arrows from './data/constants'
 
 // TASK 2- Verify our imports using log statements
 console.log(panelData) // log the panelData
-console.log() // log the open arrow
-console.log() // log the close arrow
+console.log(arrows.open) // log the open arrow
+console.log(arrows.close) // log the close arrow
 
 
 // TASK 3- Comment out the div.panel from index.html and grab its parent element.
