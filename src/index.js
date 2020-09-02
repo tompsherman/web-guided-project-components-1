@@ -6,8 +6,9 @@ const imageData = [
   { imageURL: 'https://images.dog.ceo/breeds/mastiff-bull/n02108422_3398.jpg' },
   { imageURL: 'https://images.dog.ceo/breeds/mastiff-bull/n02108422_2947.jpg' },
 ]
+// component is function that takes raw data
 function makeImage({ imageURL }) {
-  const imgElement = document.createElement('img')
+  const imgElement = document.createElement('img') // make a detatched img tag
   imgElement.style.width = '10em'
   imgElement.src = imageURL
   return imgElement
