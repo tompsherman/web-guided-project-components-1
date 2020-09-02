@@ -8,7 +8,9 @@ const imageData = [
 ]
 function makeImage({ imgURL }) {
   const imgElement = document.createElement('img')
-  imgElement.style.width
+  imgElement.style.width = '10em'
+  imgElement.src = imgURL
+  return imgElement
 }
 
 // TASK 1- Import the data we need to "hydrate" our component
