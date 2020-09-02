@@ -67,7 +67,8 @@ function makePanel({ title, content } /* what data does the panel need? */) {
       <div></div>           // panelContent
     </div>
   */
-  
+  panel.appendChild(panelBar)
+  panel.appendChild(panelBar)
 
 
   // TASK 7- Add proper class names to our elements (See index.html for reference)
