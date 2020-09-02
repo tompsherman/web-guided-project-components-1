@@ -13,6 +13,7 @@ function makeImage({ imageURL }) { // destructuring
   imgElement.src = imageURL
   return imgElement
 }
+// loop where we use the component
 imageData.forEach(imgObj => {
   // 1- make an image
   const img = makeImage(imgObj)
