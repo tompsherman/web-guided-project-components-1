@@ -92,10 +92,10 @@ function makePanel({ title, content } /* what data does the panel need? */) {
 
 
   // don't forget to return the panel!
-  return null
+  return panel
 }
-makePanel({ title: 'foo', content: 'bar' })
-
+const test = makePanel({ title: 'foo', content: 'bar' })
+console.log(test)
 
 // TASK 10- Loop through the panelData in the data folder
 //  creating panels for each content and title,
