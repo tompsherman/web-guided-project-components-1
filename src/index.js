@@ -45,8 +45,8 @@ function makePanel({ title, content } /* what data does the panel need? */) {
   // I can see the arrows already (CLOSURE)
 
   // TASK 5- Instantiate all the elements needed for a panel
-  const panel = null
-  const panelBar = null
+  const panel = document.createElement('div')
+  const panelBar = document.createElement('div')
   const panelContent = null
   const panelTitle = null
   const panelButtons = null
